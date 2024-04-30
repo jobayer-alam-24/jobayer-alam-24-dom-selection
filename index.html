@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom selections (mostly used change event)</title>
+</head>
+
+<body>
+    <form action="#" id="input-value">
+        <label for="name">Name: </label>
+        <input type="text" id="name"><br><br>
+        <label for="number" id="number">Age: </label>
+        <input type="number" min="1" max="10"><br><br>
+        <label for="email">E-mail: </label>
+        <input type="email" name="email" id="email"><br><br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password">
+
+        <p>
+            Skills:
+            <input type="checkbox" name="skill" value="HTML">
+            <label for="skill">HTML</label>
+            <input type="checkbox" name="skill" value="CSS">
+            <label for="skill">CSS</label>
+            <input type="checkbox" name="skill" value="BOOTSTRAP">
+            <label for="skill">BOOTSTRAP</label>
+        </p>
+        <p>
+            Hobby:
+            <input type="radio" name="hobby" value="Walking">
+            <label for="skill">Walking</label>
+            <input type="radio" name="hobby" value="Running">
+            <label for="skill">Running</label>
+            <input type="radio" name="hobby" value="Swimming">
+            <label for="skill">Swimming</label>
+        </p>
+        <label for="color">Favorite color: </label>
+        <input type="color" id="color"><br><br>
+        <label for="file">Browse a file: </label>
+        <input type="file" id="file">
+
+        <p>Select your major: 
+            <select name="major" id="major">
+                <option value="C++">C++</option>
+                <option value="NODE.JS">NODE.JS</option>
+                <option value="MONGO DB">MONGO DB</option>
+            </select>
+        </p>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Write something for us.."></textarea>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
